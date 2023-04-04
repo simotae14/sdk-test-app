@@ -8,7 +8,8 @@
     "sourceMap": false,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "experimentalDecorators": true
   },
   "include": [
     "src/**/*"                                           /* Watch all the files under src directory */
