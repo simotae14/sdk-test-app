@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "declaration": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2017",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "sourceMap": false,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true
+  },
+  "include": [
+    "src/**/*"                                           /* Watch all the files under src directory */
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    "lib",
+    "**/*spec.ts"
+  ]
+}
