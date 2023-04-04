@@ -7,5 +7,9 @@ sudo npm link ../sdk-with-ts-2
 
 ```
 tsc
-node dist/run.js
+node dist/app.js
+```
+or
+```
+npm run dev
 ```
